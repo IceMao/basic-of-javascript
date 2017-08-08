@@ -1,2 +1,2 @@
-# basic-of-javascript-
+# basic-of-javascript
 Basic knowledge of javascript 
