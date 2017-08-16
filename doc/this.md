@@ -117,7 +117,7 @@ let fun = Function.bind(obj);
 fun();// obj对象
 new fun();// Function对象
 ```
-## <span id="top">ES6箭头函数</span> <a href="#top">♥</a>
+## <span id="es6">ES6箭头函数</span> <a href="#top">♥</a>
 箭头函数中的this指向
 
 >函数体内的this对象，就是定义时所在的对象，而不是使用时所在的对象。
