@@ -35,6 +35,23 @@ promise.then(
 )
 ````
 
-参考：http://es6.ruanyifeng.com/#docs/promise
+以上参考：http://es6.ruanyifeng.com/#docs/promise
 
 ## angular1 promise
+
+angular 中 对于 $http , $q , promise 的使用
+
+### $http
+
+$http是对promise的封装
+
+#### 使用格式：
+
+````
+$http({method: 'POST', url: ''}), success(
+   data => console.info('data');
+),error(
+   error => console.info('error');
+))
+````
+
